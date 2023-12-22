@@ -49,4 +49,4 @@ int main(void)
 	infinite_loop();
 
 	return (EXIT_SUCCESS);
-}i
+}
