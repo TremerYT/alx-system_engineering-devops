@@ -22,9 +22,9 @@ if __name__ == '__main__':
         TASK_COMPLETED_STATUS = task.get('completed')
         TASK_TITLE = task.get('title')
         dict_data[USER_ID].append({
-                                  "tasks":ss TASK_TITLE,
+                                  "task": TASK_TITLE,
                                   "completed": TASK_COMPLETED_STATUS,
                                   "username": USERNAME})
-    """This print(dictionary_data)"""
+    """print(dict_data)"""
     with open('{}.json'.format(USER_ID), 'w') as f:
         json.dump(dict_data, f)
